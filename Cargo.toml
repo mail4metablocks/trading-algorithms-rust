@@ -1,0 +1,6 @@
+[package]
+name = "trading_algorithms"
+version = "0.1.0"
+
+
+[dependencies]
