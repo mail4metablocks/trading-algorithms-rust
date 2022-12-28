@@ -1,6 +1,8 @@
-[package]
+
+
+[[bin]]
 name = "trading_algorithms"
-version = "0.1.0"
+path = "src/sample-moving-average-crossover.rs"
 
 
 [dependencies]
