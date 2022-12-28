@@ -17,6 +17,6 @@ fn main() {
 
     for price in prices {
         trend_follower.update(price);
-        println!("Current price: {} Moving average: {}", price, trend_follower.moving_average);
+        println!("Current price: {} Moving average: {}", price, trend_follower.moving_average());
     }
 }
