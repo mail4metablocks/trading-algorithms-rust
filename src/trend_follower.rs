@@ -17,6 +17,10 @@ impl TrendFollower {
             price_history: VecDeque::new(),
         }
     }
+    
+    pub fn moving_average(&self) -> f64 {
+        self.moving_average
+    }
 
     pub fn update(&mut self, price: f64) {
         // Add the new price to the history
