@@ -1,8 +1,8 @@
+[package]
+name = "trend_follower"
+version = "0.1.0"
 
 
 [[bin]]
-name = "trading_algorithms"
-path = "src/sample-moving-average-crossover.rs"
-
-
-[dependencies]
+name = "trend_follower"
+path = "src/main.rs"
